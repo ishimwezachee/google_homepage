@@ -1,0 +1,133 @@
+/* *{
+    margin: 0;
+    padding: 0px;
+} */
+
+body{
+    box-sizing: border-box;
+}
+
+
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+    /* background-color: red; */
+}
+
+ul.nav{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(92, 90, 90);
+}
+
+li{
+    padding:  5px 15px;
+}
+
+img {
+    border-radius: 50%;
+    padding:0px 24px;
+}
+
+#middle{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.google_text{
+    font-size: 58px;
+    font-weight: bold;
+    font-family: serif;
+    letter-spacing: -6px;
+    padding-bottom: 10px;
+}
+
+#blue{
+    color: rgb(59, 88, 219);
+}
+#red{
+    color: red;
+}
+#yellow{
+    color: yellow;
+}
+#green{
+    color: green;
+}
+
+input[type="text"] {
+    width: 40%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+.fas{
+    position: absolute;
+}
+
+.fa-search{
+    top:47%;
+    left:32%;
+}
+
+.fa-microphone{
+    top:47%;
+    left:68%;
+}
+
+.buttons{
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 10px;
+    background-color: gainsboro;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    margin-left: 4px;
+    font-size: 13px;
+}
+
+#lang{
+    color: blue;
+    font-size: 14px;
+}
+#offered{
+    font-size: 14px;
+}
+
+#footer{
+    padding-bottom: 10px;
+    padding-top: 110px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+}
+
+.listone,
+.listTwo{
+    display: flex;
+    list-style: none;
+}
+.imag {
+    margin-top: 12px;
+}
+
+ul li{
+    color: rgb(92, 90, 90);
+}
